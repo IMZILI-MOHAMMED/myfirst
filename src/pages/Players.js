@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Scrollbars } from 'react-custom-scrollbars';
+
 import { Container, Columns, Column } from 'bloomer';
 import { Card, CardImage, Image, Media, MediaContent, CardContent, Title, Subtitle } from 'bloomer';
 import * as R from 'ramda';
