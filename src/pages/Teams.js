@@ -7,7 +7,9 @@ class Teams extends Component {
 
   componentDidMount() {
     
-    fetch("https://api.pandascore.co/ow/teams?&token=ib5ahXVcsVhUwxLKEggXfrDx9-78AZEYD37rfNGsxeEhQDpM8Ic")
+    fetch("https://api.pandascore.co/ow/teams?&token=ib5ahXVcsVhUwxLKEggXfrDx9-78AZEYD37rfNGsxeEhQDpM8Ic",{
+      method: "GET",
+      mode: "cors"})
     .then(res => res.json())
     .then((data) => {
       this.setState({ teams: data })

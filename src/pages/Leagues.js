@@ -9,7 +9,9 @@ class Leagues extends Component {
 
   componentDidMount() {
     
-    fetch("https://api.pandascore.co/ow/leagues?&token=ib5ahXVcsVhUwxLKEggXfrDx9-78AZEYD37rfNGsxeEhQDpM8Ic")
+    fetch("https://api.pandascore.co/ow/leagues?&token=ib5ahXVcsVhUwxLKEggXfrDx9-78AZEYD37rfNGsxeEhQDpM8Ic",{
+      method: "GET",
+      mode: "cors"})
     .then(res => res.json())
     .then((data) => {
       this.setState({ leagues: data })
