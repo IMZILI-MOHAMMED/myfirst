@@ -49,7 +49,7 @@ class Players extends Component {
   componentDidMount() {
     fetch('https://api.pandascore.co/ow/teams?range[id]=1544,1555&token=ib5ahXVcsVhUwxLKEggXfrDx9-78AZEYD37rfNGsxeEhQDpM8Ic',{
       method: "GET",
-      mode: "cors"})
+      mode: "no-cors"})
     .then(results => {
       return results.json();
     })
