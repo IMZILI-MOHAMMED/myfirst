@@ -4,7 +4,10 @@ class Home extends Component {
  render(){
    return (
     <div className='home'>
-      <h1>WELCOME HOME</h1>
+      <center><h1>E-sports App developpée par IMZILI Mohammed</h1></center>
+
+                          
+                        
     </div>
   );
  }
