@@ -6,6 +6,7 @@
     "@types/react-bootstrap": "^0.32.25",
     "bloomer": "^0.6.3",
     "bulma": "^0.7.1",
+    "cors": "^2.8.5",
     "cra-template": "1.0.3",
     "ramda": "^0.25.0",
     "react": "^16.13.1",
